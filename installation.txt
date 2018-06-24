@@ -1,11 +1,11 @@
-Controleer of PyCharm, Python en TensorFlow juist op je laptop zijn geïnstalleerd:
+Controleer of PyCharm, Python en TensorFlow juist op je laptop zijn geÃ¯nstalleerd:
 - Open PyCharm
 - Open een nieuw leeg Python-bestand (noem het b.v. test.py)
 - Controleer bij File -> Settings -> Project: ... -> Project Interpreter dat Python 3.x is geselecteerd (zo niet; volg de stappen van 'Selecteer Python interpreter' hieronder)
 - Type bovenaan 'import tensorflow as tf'
-- Als er geen rood kringeltje onder dit statement komt te staan, is alles correct geïnstalleerd!
+- Als er geen rood kringeltje onder dit statement komt te staan, is alles correct geÃ¯nstalleerd!
   - Open het bestand iris.py en ga aan de slag!
-- Als er wel een rood kringeltje onder dit statement komt te staan, is Tensorflow niet (correct) geïnstalleerd.
+- Als er wel een rood kringeltje onder dit statement komt te staan, is Tensorflow niet (correct) geÃ¯nstalleerd.
   - Ga naar het configuratiescherm en verwijder Python 3.6.x en volg de stappen van 'Installeer Python en Tensorflow'
 
 
@@ -31,3 +31,9 @@ Selecteer Python interpreter in PyCharm
 - Vink 'Existing environment' aan en klik op de drie puntjes aan de rechterkant
 - Ga naar de map waar je net Python 3 hebt geinstalleerd en klik 'python.exe' aan, klik op Ok en klik nogmaals op Ok
 - Wacht tot rechts onderaan het wieltje niet meer draait en er niet meer staat 'x processes running'
+
+
+Run de code
+- In PyCharm is als het goed is de juiste interpreter geselecteerd
+- Klik in het menu op 'Run' en daarna op 'Run 'iris''
+- Als je de code nogmaals wilt uitvoeren, kan je ook de sneltoets Ctrl-Shift-F10 gebruiken, of het groene driehoekje rechts bovenaan
