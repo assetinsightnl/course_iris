@@ -24,10 +24,11 @@ Epoch 200 | Loss: 32.334545
 
 Epoch 250 | Loss: 27.743769
 
-                        Iris-setosa     Iris-versicolor Iris-virginica 
-Iris-setosa                   2               0               0
-Iris-versicolor               2               0               2
-Iris-virginica                1               0               3
+| Echt / Voorspeld | Iris-setosa | Iris-versicolor | Iris-virginica |
+|------------------|-------------|-----------------|----------------|
+| Iris-setosa      | 2           | 0               | 0              |
+| Iris-versicolo   | 2           | 0               | 2              |
+| Iris-virginica   | 1           | 0               | 3              |
 
 Voor elke 50e epoch wordt de loss geprint; in principe moet de loss afnemen naarmate het aantal epoch toeneemt. Als het netwerk helemaal is getraind wordt de confusion matrix getoond met de uitkomst van de testdata. Aan de linker kant staan de daadwerkelijke klassen, en bovenaan staan de voorspelde klassen.
 
