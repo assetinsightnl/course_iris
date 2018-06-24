@@ -20,7 +20,7 @@ Installeer Python en Tensorflow:
   - Installeer het in een map die je makkelijk terug kan vinden
 - Open command.exe en ga naar de map waar python is geinstalleerd
 - Upgrade pip: python.exe -m pip install --upgrade pip
-- Installeer tensorflow, numpy en pandas: python.exe -m pip install tensorflow numpy pandas
+- Installeer tensorflow, numpy, pandas en opencv: python.exe -m pip install tensorflow numpy pandas opencv-python
 
 
 Selecteer Python interpreter in PyCharm
