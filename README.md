@@ -1,7 +1,7 @@
-# iris
+# Classificatie op de Iris-dataset
 Tensorflow example on the Iris dataset
 
-This code is based on https://github.com/EdoVaira/Iris-Neural-Network
+This code is loosly based on https://github.com/EdoVaira/Iris-Neural-Network
 
 Indien PyCharm, Python 3 en TensorFlow allemaal correct zijn geinstalleerd, ga dan verder met deze readme. Indien minstens een van deze drie onderdelen niet correct is geinstalleerd, doorloop dan eerst de stappen in installation.md
 
@@ -32,6 +32,7 @@ Epoch 250 | Loss: 27.743769
 
 Voor elke 50e epoch wordt de loss geprint; in principe moet de loss afnemen naarmate het aantal epoch toeneemt. Als het netwerk helemaal is getraind wordt de confusion matrix getoond met de uitkomst van de testdata. Aan de linker kant staan de daadwerkelijke klassen, en bovenaan staan de voorspelde klassen.
 
+## Onderzoeksvragen
 Door de parameters tussen regels  129 en 148 aan te passen, kan het netwerk beter of slechter worden getraind. Probeer de onderstaande vragen te beantwoorden:
 - Wat is het effect van wel/niet shuffelen van de data?
 - Wat is een verstandige grootte voor de testset?
