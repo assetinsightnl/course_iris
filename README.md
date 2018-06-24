@@ -3,12 +3,12 @@ Tensorflow example on the Iris dataset
 
 This code is based on https://github.com/EdoVaira/Iris-Neural-Network
 
-Indien PyCharm, Python 3 en TensorFlow allemaal correct zijn geinstalleerd, ga dan verder met deze readme. Indien minstens een van deze drie onderdelen niet correct is geinstalleerd, doorloop dan eerst de stappen in installation.txt
+Indien PyCharm, Python 3 en TensorFlow allemaal correct zijn geinstalleerd, ga dan verder met deze readme. Indien minstens een van deze drie onderdelen niet correct is geinstalleerd, doorloop dan eerst de stappen in installation.md
 
 Doorloop de volgende stappen om neural network v0.00001 te trainen en te testen:
 1. Open iris.py in PyCharm
 2. Scroll door het bestand en bekijk hoe de code een beetje in elkaar zit. Het is niet nodig om het in detail door te nemen, maar enkele aspecten in de code zullen herkend moeten worden aangezien ze zojuist in de presentatie zijn genoemd.
-3. Selecteer de juiste interpreter (Python 3) als dat nog niet het geval is. In installation.txt staat uitgelegd hoe de interpreter in PyCharm in te stellen is.
+3. Selecteer de juiste interpreter (Python 3) als dat nog niet het geval is. In installation.md staat uitgelegd hoe de interpreter in PyCharm in te stellen is.
 4. Klik met de rechtermuisknop op het tabblad 'iris.py' in PyCharm en klik vrijwel helemaal onderaan op het groene driehoekje 'Run iris'
 5. De output die wordt gegenereerd kan in eerste instantie een warning bevatten van TensorFlow; dit kan genegeerd worden. De verdere output zal lijken op:
 
