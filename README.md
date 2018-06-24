@@ -13,11 +13,17 @@ Doorloop de volgende stappen om neural network v0.00001 te trainen en te testen:
 5. De output die wordt gegenereerd kan in eerste instantie een warning bevatten van TensorFlow; dit kan genegeerd worden. De verdere output zal lijken op:
 
 Training the model...
+
 Epoch 50 | Loss: 51.33775
+
 Epoch 100 | Loss: 49.221706
+
 Epoch 150 | Loss: 44.0493
+
 Epoch 200 | Loss: 32.334545
+
 Epoch 250 | Loss: 27.743769
+
                         Iris-setosa     Iris-versicolor Iris-virginica 
 Iris-setosa                   2               0               0
 Iris-versicolor               2               0               2
