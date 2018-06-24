@@ -1,4 +1,4 @@
-## Controleer of PyCharm, Python en TensorFlow juist op je laptop zijn geïnstalleerd:
+## Controleer of PyCharm, Python en TensorFlow juist op je laptop zijn geinstalleerd:
 - Open PyCharm
 - Open een nieuw leeg Python-bestand (noem het b.v. test.py)
 - Controleer bij File -> Settings -> Project: ... -> Project Interpreter dat Python 3.x is geselecteerd (zo niet; volg de stappen van 'Selecteer Python interpreter' hieronder)
