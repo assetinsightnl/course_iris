@@ -1,0 +1,16 @@
+Onderzoeksvragen:
+- Wat is het effect van wel/niet shuffelen van de data?
+- Wat is een verstandige grootte voor de testset?
+- Wat is het effect van minder of juist meer hidden nodes?
+- Wat is het effect van de learning rate en hoe hangt dat samen met het aantal epochs?
+- Welke twee kolommen hebben gecombineerd de best voorspellende waarde?
+- Wat is jouw beste configuratie en waarom?
+
+
+Geavanceerde onderzoeksvragen:
+- Welke optimizers zijn er nog meer en heeft een andere optimizer effect op het resultaat?
+	  (Zie ‘optimizer = tf.train.GradientDescentOptimizer(…)’ in de code)
+- Welke loss functies zijn er nog meer en heeft een andere loss functie effect op het resultaat?
+	  (Zie ‘loss = tf.reduce_mean(…)’ in de code)
+- Wat is een activation function en heeft een andere activation function effect op het resultaat?
+	  (Zie ‘hidden_output = tf.nn.relu(…)’ en ‘final_output = tf.nn.softmax(…)’ in de code)
