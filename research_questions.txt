@@ -1,3 +1,5 @@
+In het stuk van de code omgeven door de tekst 'Neural network parameters' kunnen de parameters van het neurale netwerk worden aangepast om onderstaande onderzoeksvragen te beantwoorden
+
 Onderzoeksvragen:
 - Wat is het effect van wel/niet shuffelen van de data?
 - Wat is een verstandige grootte voor de testset?
