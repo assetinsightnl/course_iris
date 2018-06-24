@@ -134,14 +134,14 @@ def create_train_and_predict():
     shuffle_data = True
 
     # Number of rows to be used for testing. In total there are 150 rows in the dataset.
-    test_size = 20
+    test_size = 10
 
     # The number of epochs. A single epoch will use all rows of the dataset (minus the rows reserved for testing)
     # exactly once in order to update the parameters of all hidden and output nodes.
-    epochs = 500
+    epochs = 250
 
     # In this network there is one single hidden layer. This variable defines the number of nodes in this layer.
-    number_of_hidden_nodes = 8
+    number_of_hidden_nodes = 3
 
     # The learning rate of the training of the network
     learning_rate = 0.001
