@@ -1,19 +1,19 @@
-Controleer of PyCharm, Python en TensorFlow juist op je laptop zijn geïnstalleerd:
+## Controleer of PyCharm, Python en TensorFlow juist op je laptop zijn geïnstalleerd:
 - Open PyCharm
 - Open een nieuw leeg Python-bestand (noem het b.v. test.py)
 - Controleer bij File -> Settings -> Project: ... -> Project Interpreter dat Python 3.x is geselecteerd (zo niet; volg de stappen van 'Selecteer Python interpreter' hieronder)
 - Type bovenaan 'import tensorflow as tf'
-- Als er geen rood kringeltje onder dit statement komt te staan, is alles correct geïnstalleerd!
+- Als er geen rood kringeltje onder dit statement komt te staan, is alles correct geinstalleerd!
   - Open het bestand iris.py en ga aan de slag!
-- Als er wel een rood kringeltje onder dit statement komt te staan, is Tensorflow niet (correct) geïnstalleerd.
-  - Ga naar het configuratiescherm en verwijder Python 3.6.x en volg de stappen van 'Installeer Python en Tensorflow'
+- Als er wel een rood kringeltje onder dit statement komt te staan, is Tensorflow niet (correct) geinstalleerd.
+  - Ga naar het configuratiescherm en verwijder Python 3.6.x en volg de stappen van 'Installeer Python en Tensorflow' (ja, Python moet verwijderd worden helaas)
 
 
-Installeer PyCharm:
+## Installeer PyCharm:
 - Ga naar https://www.jetbrains.com/pycharm/download/#section=windows en download en installeer de Community versie van PyCharm
 
 
-Installeer Python en Tensorflow:
+## Installeer Python en Tensorflow:
 - Ga naar https://www.python.org/downloads/windows/
   - Let bij het kiezen op dat je voor de 64-bit executable installer gaat (niet de 32-bit!)
   - Kies Python 3.5.4 - 2017-08-08
@@ -23,17 +23,12 @@ Installeer Python en Tensorflow:
 - Installeer tensorflow, numpy, pandas en opencv: python.exe -m pip install tensorflow numpy pandas opencv-python
 
 
-Selecteer Python interpreter in PyCharm
+## Selecteer Python interpreter in PyCharm
 - Open een code-bestand in PyCharm of maak een nieuw bestand aan als je dat nog niet hebt gedaan
+- Als de geinstalleerde python versie de standaard python is op de computer, wordt dit automatisch de interpreter. Anders:
 - Ga naar File -> Settings -> Project: ...
 - Klik op Python interpreter
-- Rechts boven, klik op het wieltje en klik op 'Add local'
+- Rechtsboven, klik op het wieltje en klik op 'Add local'
 - Vink 'Existing environment' aan en klik op de drie puntjes aan de rechterkant
 - Ga naar de map waar je net Python 3 hebt geinstalleerd en klik 'python.exe' aan, klik op Ok en klik nogmaals op Ok
 - Wacht tot rechts onderaan het wieltje niet meer draait en er niet meer staat 'x processes running'
-
-
-Run de code
-- In PyCharm is als het goed is de juiste interpreter geselecteerd
-- Klik in het menu op 'Run' en daarna op 'Run 'iris''
-- Als je de code nogmaals wilt uitvoeren, kan je ook de sneltoets Ctrl-Shift-F10 gebruiken, of het groene driehoekje rechts bovenaan
