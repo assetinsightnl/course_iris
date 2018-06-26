@@ -1,4 +1,4 @@
-# Classificatie op de Iris-dataset
+# Classifying the Iris-dataset
 Tensorflow example on the Iris dataset. A basic neural network with one hidden layer is created and the programmer can change the parameters in order to get to a better understanding of what the parameters do.
 
 This code is loosly based on https://github.com/EdoVaira/Iris-Neural-Network
