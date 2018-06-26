@@ -18,10 +18,7 @@
 - Controleer bij File -> Settings -> Project: ... -> Project Interpreter dat Python 3.x is geselecteerd (zo niet; volg de stappen van 'Selecteer Python interpreter' hieronder)
 - Type bovenaan 'import tensorflow as tf'
 - Als er geen rood kringeltje onder dit statement komt te staan, is alles correct geinstalleerd!
-  - Open het bestand iris.py en ga aan de slag!
-- Als er wel een rood kringeltje onder dit statement komt te staan, is Tensorflow niet (correct) geinstalleerd.
-  - Ga naar het configuratiescherm en verwijder Python 3.6.x en volg de stappen van 'Installeer Python en Tensorflow' (ja, Python moet verwijderd worden helaas)
-
+- Als er wel een rood kringeltje onder dit statement komt te staan, is Tensorflow niet (correct) geinstalleerd. Op dit moment werkt TensorFlow onder Windows alleen met Python 3.5 en lager, en nog niet met 3.6. Volg de stappen van 'Installeer Python en Tensorflow' om het allemaal correct te installeren.
 
 ### Installeer PyCharm:
 - Ga naar https://www.jetbrains.com/pycharm/download/#section=windows en download en installeer de Community versie van PyCharm
