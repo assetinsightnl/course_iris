@@ -6,11 +6,12 @@ import pandas as pd
 import numpy as np
 
 
-def get_data(predictor_columns, shuffle_data, test_size):
+def get_data(predictor_columns, shuffle_data, train_size):
     """Read the dataset from the CSV file and prepare the data for using it in training and testing the neural network.
     :param predictor_columns: The names of the columns used for predicting the classes (the Iris species)
     :param shuffle_data: Whether or not the data is shuffled before using it for the neural network
-    :param test_size: The number of rows in the dataset of 150 rows in total which will be used for testing
+    :param train_size: The number of rows in the dataset of 150 rows in total which will be used for training the
+                       network. The remainder of the rows will be used for testing the trained network.
     :return: A list with Iris classes (the three species) and the test and training datasets containing the predictor
              values and containing the classes."""
     # Load the dataset from the file
@@ -35,6 +36,7 @@ def get_data(predictor_columns, shuffle_data, test_size):
         x_values, y_values = x, y
 
     # Create a train set and a test set. Total dataset size is 150.
+    test_size = 150 - train_size
     x_testset = x_values[-test_size:]
     x_trainset = x_values[:-test_size]
     y_testset = y_values[-test_size:]
@@ -133,8 +135,9 @@ def create_train_and_predict():
     # Iris Versicolor and the last 50 rows are Iris Virginica.
     shuffle_data = True
 
-    # Number of rows to be used for testing. In total there are 150 rows in the dataset.
-    test_size = 10
+    # Number of rows to be used for training the network. In total there are 150 rows in the dataset. The remaining rows
+    # will be used to test the trained network.
+    train_size = 10
 
     # The number of epochs. A single epoch will use all rows of the dataset (minus the rows reserved for testing)
     # exactly once in order to update the parameters of all hidden and output nodes.
@@ -156,7 +159,7 @@ def create_train_and_predict():
     tf.set_random_seed(seed)
 
     # Get all required data from the dataset and make it neural network-ready
-    iris_classes, x_test, x_train, y_test, y_train = get_data(predictor_columns, shuffle_data, test_size)
+    iris_classes, x_test, x_train, y_test, y_train = get_data(predictor_columns, shuffle_data, train_size)
 
     # Create the neural network and get all variables required for training and predicting
     session, optimizer, loss, x_placeholder, y_placeholder, final_output = \
